@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atalhos do VS Code</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0d1117;
+            color: #fff;
+            padding: 40px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            color: #4da6ff;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #aaa;
+        }
+
+        .sistema {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 6px 12px;
+            border: 1px solid #30363d;
+            border-radius: 20px;
+            color: #4da6ff;
+            font-size: 13px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .categoria {
+            margin-bottom: 35px;
+        }
+
+        .categoria h2 {
+            color: #4da6ff;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 8px;
+        }
+
+        .atalhos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .atalho {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 0.2s;
+        }
+
+        .atalho:hover {
+            border-color: #4da6ff;
+            transform: translateY(-2px);
+        }
+
+        .atalho span {
+            color: #ddd;
+        }
+
+        kbd {
+            background: #30363d;
+            border: 1px solid #484f58;
+            border-radius: 5px;
+            padding: 5px 9px;
+            color: #fff;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>⌨️ Atalhos do VS Code</h1>
+            <p>Principais teclas de atalho para facilitar sua programação</p>
+
+            <!-- Alteração feita -->
+            <span class="sistema">Windows</span>
+        </header>
+
+        <section class="categoria">
+            <h2>📁 Arquivos</h2>
+
+            <div class="atalhos">
+                <div class="atalho">
+                    <span>Novo arquivo</span>
+                    <kbd>Ctrl + N</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Abrir arquivo</span>
+                    <kbd>Ctrl + O</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Salvar arquivo</span>
+                    <kbd>Ctrl + S</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Salvar como</span>
+                    <kbd>Ctrl + Shift + S</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Fechar arquivo</span>
+                    <kbd>Ctrl + W</kbd>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>✏️ Edição</h2>
+
+            <div class="atalhos">
+                <div class="atalho">
+                    <span>Desfazer</span>
+                    <kbd>Ctrl + Z</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Refazer</span>
+                    <kbd>Ctrl + Y</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Copiar linha</span>
+                    <kbd>Shift + Alt + ↓</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Mover linha para cima</span>
+                    <kbd>Alt + ↑</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Mover linha para baixo</span>
+                    <kbd>Alt + ↓</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Comentar linha</span>
+                    <kbd>Ctrl + /</kbd>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>🔎 Pesquisa</h2>
+
+            <div class="atalhos">
+                <div class="atalho">
+                    <span>Pesquisar no arquivo</span>
+                    <kbd>Ctrl + F</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Substituir</span>
+                    <kbd>Ctrl + H</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Pesquisar em todos os arquivos</span>
+                    <kbd>Ctrl + Shift + F</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Ir para linha</span>
+                    <kbd>Ctrl + G</kbd>
+                </div>
+            </div>
+        </section>
+
+        <section class="categoria">
+            <h2>💻 VS Code</h2>
+
+            <div class="atalhos">
+                <div class="atalho">
+                    <span>Terminal integrado</span>
+                    <kbd>Ctrl + `</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Paleta de comandos</span>
+                    <kbd>Ctrl + Shift + P</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Explorador de arquivos</span>
+                    <kbd>Ctrl + Shift + E</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Extensões</span>
+                    <kbd>Ctrl + Shift + X</kbd>
+                </div>
+
+                <div class="atalho">
+                    <span>Formatar documento</span>
+                    <kbd>Shift + Alt + F</kbd>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Página criada para estudo de HTML e CSS
+        </footer>
+
+    </div>
+
+</body>
+</html>
